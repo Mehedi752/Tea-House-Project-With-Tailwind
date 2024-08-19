@@ -33,15 +33,416 @@
         }
     </script>
 
-
-
     <!-- Some Shared Styles. -->
-    
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
 
 </head>
 
-<body>
+<body class="">
 
+    <!-- Header Part -->
+    <header class="px-7 lg:px-28">
+        <div class="max-w-[1200px] mx-auto  my-[50px]  lg:my-[100px] lg:flex">
+
+            <!-- Banner Content -->
+            <div class="">
+
+                <h3 class="text-[50px] md:text-[70px] text-[#1C1C1C] font-extrabold mb-[30px] md:pr-[50px]">It's good
+                    <br>
+                    tea time at The Tea House
+                </h3>
+
+                <p class="text-[18px] text-[#777777] font-medium">
+                    Tea and Botanical Solutions Supplier Give Optimum <br>
+                    Satisfaction To Your Taste Buds.
+                </p>
+
+                <button
+                    class="mt-[30px] flex items-center rounded-[10px] gap-2 bg-gradient-to-r from-[#FF0000] to-[#FF8938] px-[18px] py-[20px]">
+                    <span class="text-[20px] text-white font-bold">Explore More</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                </button>
+            </div>
+
+
+            <!-- Banner Image -->
+            <div class="mt-[50px] md:mt-[100px] relative">
+
+                <img src="./images/banner.png" alt="" class="w-full">
+
+                <!-- Banner Image Box -->
+                <div class="absolute bottom-3 left-9 md:bottom-5 md:left-8 p-2 md:px-6 md:py-5 flex justify-center 
+                items-center gap-[8px] rounded-[10px] bg-white
+                shadow-[0_7px_50px_0_rgba(0,0,0,0.6)]">
+
+                    <!-- Box Image -->
+                    <img src="./images/star.png" alt="" class="">
+
+                    <!-- Box Content -->
+                    <div class="">
+                        <h3 class="text-[20px] md:text-[30px] text-[#1C1C1C] font-extrabold">5.00</h3>
+                        <p class="text-[12px] md:text-[16px] text-[#777777] font-semibold">Trust Pilot Ratings</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main class="px-7 lg:px-28">
+
+        <!-- Featured Prodeucts Section -->
+        <section class="max-w-[1200px] mx-auto">
+
+            <!-- Featured Products Content -->
+            <div class="text-center">
+                <h3 class="text-[30px] md:text-[45px] text-[#1C1C1C] font-extrabold mb-7">Our Featured Products</h3>
+                <p class="text-[#777777] font-medium md:px-[180px]">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have
+                    suffered alteration in some form, by injected humour, or randomised words which don't look even
+                    slightly believable. </p>
+            </div>
+
+
+            <!-- Featured Products Images Card -->
+            <div class="my-[50px] grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Image Card - 1 -->
+                <div class=" rounded-[10px] bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] flex flex-col items-center">
+                    <img src="./images/tea-1.png" alt="" class="px-[66px] py-[30px]">
+                    <h3 class="text-[25px] text-[#1C1C1C] font-extrabold">Milk Tea</h3>
+                    <p class="text-[#777777] font-semibold px-[50px] pb-[30px] text-center">Creamer could be replaced by
+                        fresh
+                        milk</p>
+                </div>
+
+                <!-- Image Card - 2 -->
+                <div class="rounded-[10px] bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] flex flex-col items-center">
+                    <img src="./images/tea-2.png" alt="" class="px-[66px] py-[30px]">
+                    <h3 class="text-[25px] text-[#1C1C1C] font-extrabold">Black Tea</h3>
+                    <p class="text-[#777777] font-semibold px-[50px] pb-[30px] text-center">Creamer could be replaced by
+                        fresh
+                        milk</p>
+                </div>
+
+                <!-- Image Card - 3 -->
+                <div class="rounded-[10px] bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] flex flex-col items-center">
+                    <img src="./images/tea-3.png" alt="" class="px-[66px] py-[30px]">
+                    <h3 class="text-[25px] text-[#1C1C1C] font-extrabold">Lemon Tea</h3>
+                    <p class="text-[#777777] font-semibold px-[50px] pb-[30px] text-center">Creamer could be replaced by
+                        fresh
+                        milk</p>
+                </div>
+
+                <!-- Image Card - 4 -->
+                <div class="rounded-[10px] bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] flex flex-col items-center">
+                    <img src="./images/tea-4.png" alt="" class="px-[66px] py-[30px]">
+                    <h3 class="text-[25px] text-[#1C1C1C] font-extrabold">Green Tea</h3>
+                    <p class="text-[#777777] font-semibold px-[50px] pb-[30px] text-center">Creamer could be replaced by
+                        fresh
+                        milk</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Fresh Tea Section -->
+        <section class="max-w-[1200px] mx-auto my-[100px]">
+
+            <!-- Fresh Tea Container -->
+            <div class="grid grid-cols-1 gap-[30px] lg:grid-cols-2 lg:gap-[60px]">
+
+                <!-- Fresh Tea Images -->
+                <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
+                    <div class="rounded-[10px] bg-gradient-to-r from-[#FF0000] to-[#FF8938]"></div>
+
+                    <div class="bg-[#E6A6231A] rounded-[10px] row-span-2">
+                        <img src="./images/fresh-1.png" alt="" class="mx-auto my-[50px]">
+                    </div>
+
+                    <div class="bg-[#5776391A] rounded-[10px] row-span-2">
+                        <img src="./images/fresh-2.png" alt="" class="mx-auto my-[30px] lg:my-[50px]">
+                    </div>
+
+                    <div class="rounded-[10px] bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]"></div>
+                </div>
+
+                <!-- Fresh Tea Content -->
+                <div class="flex flex-col justify-between">
+
+                    <h3 class="text-[30px] md:text-[45px] text-[#1C1C1C] font-extrabold mb-[20px] md:0px">Great Tea,
+                        Freshly Presented</h3>
+                    <p class="text-[#777777] font-semibold md:pr-[150px] mb-[20px] md:0px">The meaning of gong cha is
+                        chanese is to provide the best tea to emperor from all
+                        possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong
+                        cha
+                        had been deeply appreciated by its custoers because of good words of mouth and unique customized
+                        service orginated from Taiwan.</p>
+
+                    <div class="">
+                        <h4 class="text-[20px] text-[#1C1C1C] font-extrabold mb-[10px] md:0px">Unique Taste</h4>
+                        <p class="text-[#777777] font-semibold md:pr-[150px] mb-[10px] md:0px">A Unique and different
+                            style from other teapots gives a luxurious and minimalist
+                            impression</p>
+                    </div>
+
+                    <div class="">
+                        <h4 class="text-[20px] text-[#1C1C1C] font-extrabold mb-[10px] md:0px">Premium Quality</h4>
+                        <p class="text-[#777777] font-semibold md:pr-[150px] mb-[10px] md:0px">Premium Quality that
+                            makes tea more elegant and more durable when you use it.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Review Section -->
+        <section class="max-w-[1200px] mx-auto">
+
+            <!-- Review Container -->
+            <div class="rounded-[10px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] grid grid-cols-1 lg:grid-cols-2
+             px-[35px] py-[40px] lg:px-[70px] lg:py-[80px] text-white justify-center items-center">
+
+                <!-- Review Content -->
+                <div class="w-5/6 mb-10 md:mb-0">
+                    <h3 class="text-[30px] md:text-[45px] text-[#F4F4F4] font-extrabold mb-[20px] md:0px">Meet Our Super
+                        Clients</h3>
+                    <p class="text-[#F4F4F4] font-semibold  mb-[20px] md:0px">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have
+                        suffered alteration in some form, by injected humour, or randomised words which don't look even
+                        slightly believable. </p>
+                    <button
+                        class="bg-[#FFFFFF] rounded-[8px] text-[20px] text-[#FF0000] font-bold px-[28px] py-[14px]">Show
+                        All</button>
+                </div>
+
+
+                <!-- Review Card -->
+                <div class="relative mb-10">
+
+
+                    <!-- Middle Card -->
+                    <div class="absolute z-10 top-32 right-5 md:top-40">
+                        <div class="w-full md:w-5/6 h-[233px] bg-white text-black rounded-[8px] flex 
+                        items-center px-10">
+
+                            <!-- Card Image -->
+                            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                                <img src="./images/client.png" alt="" class="p-1">
+                            </div>
+
+                            <!-- Card Details -->
+                            <div class="">
+                                <p class="text-[#777777] mb-[20px]">We are providing the best and suitable home
+                                    insurance
+                                    services for
+                                    the people who are interested to treatment</p>
+                                <h4 class="text-[#1C1C1C] font-bold">Ilham Yuda</h4>
+                                <p class="text-[#5D5A6F] font-semibold">Businessman</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Top Card -->
+                    <div class="relative left-5 md:left-20 w-full md:w-5/6 h-[233px] bg-white text-black rounded-[8px] flex 
+                    items-center px-10 opacity-40">
+
+                        <!-- Card Image -->
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                            <img src="./images/client.png" alt="" class="p-1">
+                        </div>
+
+                        <!-- Card Details -->
+                        <div class="">
+                            <p class="text-[#777777] mb-[20px]">We are providing the best and suitable home insurance
+                                services for
+                                the people who are interested to treatment</p>
+                            <h4 class="text-[#1C1C1C] font-bold">Ilham Yuda</h4>
+                            <p class="text-[#5D5A6F] font-semibold">Businessman</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Bottom Card -->
+                    <div class="relative top-16 left-5 md:left-20 w-full md:w-5/6 h-[233px] bg-white text-black rounded-[8px] flex items-center
+                     px-10 opacity-40">
+
+                        <!-- Card Image -->
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                            <img src="./images/client.png" alt="" class="p-1">
+                        </div>
+
+                        <!-- Card Details -->
+                        <div class="">
+                            <p class="text-[#777777] mb-[20px]">We are providing the best and suitable home insurance
+                                services for
+                                the people who are interested to treatment</p>
+                            <h4 class="text-[#1C1C1C] font-bold">Ilham Yuda</h4>
+                            <p class="text-[#5D5A6F] font-semibold">Businessman</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- News & Event Section -->
+        <section class="max-w-[1200px] mx-auto my-[100px]">
+
+            <!-- News & Event Container -->
+            <div class="">
+
+                <!-- News & Event Content -->
+                <div class="text-center mb-[50px]">
+                    <h3 class="text-[30px] md:text-[45px] text-[#1C1C1C] font-extrabold mb-7">News & Events</h3>
+                    <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some form, by injected humour, or randomised words which don't look even
+                        slightly believable. </p>
+                </div>
+
+                <!-- News & Event Card -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                    <!-- Card - 1 -->
+                    <div
+                        class="h-[448px] box-border rounded-[10px] border border-solid border-[#D2D2D2] p-[22px] flex flex-col justify-between">
+                        <img src="./images/news-1.png" alt="" class="w-full">
+                        <p class="text-[#777777] font-medium">Feb 05, 2027</p>
+                        <h3 class="text-[20px] text-[#1C1C1C] font-extrabold">Collecting 8 points for discount</h3>
+                        <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <h4 class="text-[#1C1C1C] font-bold">Learn More</h4>
+                    </div>
+
+                    <!-- Card - 2-->
+                    <div
+                        class="h-[448px] box-border rounded-[10px] border border-solid border-[#D2D2D2] p-[22px] flex flex-col justify-between">
+                        <img src="./images/news-1.png" alt="" class="w-full">
+                        <p class="text-[#777777] font-medium">Feb 05, 2027</p>
+                        <h3 class="text-[20px] text-[#1C1C1C] font-extrabold">Collecting 8 points for discount</h3>
+                        <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <h4 class="text-[#1C1C1C] font-bold">Learn More</h4>
+                    </div>
+
+                    <!-- Card - 3 -->
+                    <div
+                        class="h-[448px] box-border rounded-[10px] border border-solid border-[#D2D2D2] p-[22px] flex flex-col justify-between">
+                        <img src="./images/news-1.png" alt="" class="w-full">
+                        <p class="text-[#777777] font-medium">Feb 05, 2027</p>
+                        <h3 class="text-[20px] text-[#1C1C1C] font-extrabold">Collecting 8 points for discount</h3>
+                        <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <h4 class="text-[#1C1C1C] font-bold">Learn More</h4>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="px-7 lg:px-28">
+
+        <!-- Footer Container -->
+        <div class="max-w-[1200px] mx-auto my-[130px]">
+
+            <!--Footer Top  -->
+            <div class="flex justify-between items-center pb-[100px]">
+                <img src="./images/cup.png" alt="" class="">
+
+                <div class="flex items-center gap-[40px]">
+                    <p class="text-[20px] text-[#494949] font-medium">Ready to get strated?</p>
+                    <button class="flex items-center rounded-[10px] gap-2 bg-gradient-to-r 
+                    from-[#FF0000] to-[#FF8938] px-[18px] py-[20px]">
+                        <span class="text-[20px] text-white font-bold">
+                            Get Started
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Foooter Content -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="">
+                    <h3 class="text-[20px] text-[#1C1C1C] font-semibold pb-[25px]">Quick Links</h3>
+                    <div class="flex flex-col gap-[18px]">
+                        <p class="text-[#494949]">Home</p>
+                        <p class="text-[#494949]">About Us</p>
+                        <p class="text-[#494949]">Insurance</p>
+                        <p class="text-[#494949]">Privacy Policy</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <h3 class="text-[20px] text-[#1C1C1C] font-semibold pb-[25px]">Our Service</h3>
+                    <div class="flex flex-col gap-[18px]">
+                        <p class="text-[#494949]">Life Insurance</p>
+                        <p class="text-[#494949]">Car Insurance</p>
+                        <p class="text-[#494949]">Health Insurance</p>
+                        <p class="text-[#494949]">House Insurance</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <h3 class="text-[20px] text-[#1C1C1C] font-semibold pb-[25px]">Help</h3>
+                    <div class="flex flex-col gap-[18px]">
+                        <p class="text-[#494949]">FAQs</p>
+                        <p class="text-[#494949]">Contact Us</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <h3 class="text-[24px] text-[#1C1C1C] font-semibold pb-[25px]">
+                        Subscribe to our <br> newsletter
+                    </h3>
+                    <div class="flex justify-between border-b-2 border-solid pb-[20px]">
+                        <button class="text-[#494949]">Email address</button>
+                        <div class="w-[32px] h-[32px] bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-full
+                        text-center pt-[3px] text-white">></div>
+                    </div>
+
+                    <div class="flex mt-[30px] gap-[28px]">
+                        <img src="./images/fb-icon.png" alt="" class="">
+                        <img src="./images/twitter-icon.png" alt="" class="">
+                        <img src="./images/insta-icon.png" alt="" class="">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Footer Last Line -->
+            <p class="text-center text-[#494949] font-medium mt-[100px]">© 2027 UIDesign.to - All rights reserved.</p>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>
